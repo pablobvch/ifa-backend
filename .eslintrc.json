@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:flowtype/recommended",
+    "prettier/flowtype",
+    "prettier/react",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["flowtype", "react-hooks"],
+  "rules": {
+    "no-use-before-define": "warn",
+    "prettier/prettier": ["error", { "bracketSpacing": false }]
+  }
+}
